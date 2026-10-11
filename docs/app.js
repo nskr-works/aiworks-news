@@ -52,6 +52,7 @@ function buildCategoryUI(){
   const tabs = $("#tabs"); tabs.textContent = "";
   const mkTab = (key, label, color) => {
     const b = el("button", null, label); b.dataset.cat = key; b.setAttribute("aria-pressed", key === state.cat);
+    b.append(el("span", "c"));
     if (color) b.style.setProperty("--c", color);
     b.onclick = () => setCat(key); tabs.append(b);
   };
@@ -59,15 +60,22 @@ function buildCategoryUI(){
   for (const c of state.cats) mkTab(c.key, c.label, c.color);
 
   const cols = $("#columns"); cols.textContent = "";
+  // スマホでは分野別の欄を1つずつ見せるので、切り替え用の小さなタブも作る（PCでは隠れていて4列すべてを表示）
+  const colTabs = $("#colTabs"); colTabs.textContent = "";
+  const showCol = key => {
+    cols.querySelectorAll("section").forEach(s => s.classList.toggle("on", s.dataset.cat === key));
+    colTabs.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.cat === key));
+  };
   for (const c of state.cats){
-    const s = el("section"); s.style.setProperty("--c", c.color);
+    const t = el("button", null, c.label); t.dataset.cat = c.key; t.onclick = () => showCol(c.key); colTabs.append(t);
+    const s = el("section"); s.dataset.cat = c.key; s.style.setProperty("--c", c.color);
     const h = el("div", "col-h"), h3 = el("h3", null, c.label);
-    h3.append(el("small", null, c.en || ""));
     const b = el("button", null, "すべて見る →"); b.onclick = () => { setCat(c.key); jump(); };
     h.append(h3, b);
     const body = el("div"); body.id = `col-${c.key}`;
     s.append(h, body); cols.append(s);
   }
+  if (state.cats.length) showCol(state.cats[0].key);
 
   const key = $("#chartKey"); key.textContent = "";
   for (const c of state.cats){ const s = el("span", null, c.label); s.style.setProperty("--c", c.color); key.append(s); }
@@ -134,14 +142,16 @@ function renderFront(){
   });
   for (const c of state.cats){
     const box = $(`#col-${c.key}`); box.textContent = "";
-    // 分野別の欄は一面・速報との重複を気にせず、その分野の最新5件を配信時刻の新しい順に出す
-    const list = state.items.filter(it => it.categories.includes(c.key)).slice(0, 5);
+    // 分野別の欄は一面・速報との重複を気にせず、その分野の最新10件を配信時刻の新しい順に出す
+    const list = state.items.filter(it => it.categories.includes(c.key)).slice(0, 10);
     if (!list.length) box.append(el("p", "col-empty", "まだ記事がありません。"));
     list.forEach(it => {
       used.add(it.id);
       const a = link(it, "brief");
       const rel = it.type === "release" ? `　プレスリリース${it.company ? `　${it.company}` : ""}` : "";
-      a.append(...newMark(it), el("span", "t", it.title), el("span", "small-meta", `${it.source}　${when(it.published)}${rel}`));
+      // NEW は見出しの下の媒体名の行に入れて、1行分詰める
+      const meta = el("span", "small-meta"); meta.append(...newMark(it), `${it.source}　${when(it.published)}${rel}`);
+      a.append(el("span", "t", it.title), meta);
       box.append(a);
     });
   }
@@ -268,7 +278,7 @@ function syncTabs(){ document.querySelectorAll("#tabs button").forEach(b => b.se
 function setCat(cat){ state.cat = cat; state.topic = null; refresh(); }
 function setTopic(t, cat){ state.topic = t; if (cat) state.cat = cat; refresh(); }
 // 操作バーが画面の一番上に来る位置へ移動（一面を隠したときは結果がすぐ下に出る）
-function jump(){ window.scrollTo({ top: $(".ticker").getBoundingClientRect().bottom + scrollY, behavior: "smooth" }); }
+function jump(){ window.scrollTo({ top: $(".site").getBoundingClientRect().bottom + scrollY, behavior: "smooth" }); }
 
 /* メニュー */
 const drawer = $("#drawer"), scrim = $("#scrim"), menuBtn = $("#menuBtn");
@@ -317,6 +327,13 @@ function header(updated){
     cell(c.label, now7, "件", c.color, diff);
   }
   cell("掲載媒体", new Set(state.items.map(it => it.source)).size, "媒体");
+  const nToday = state.items.filter(it => dayKey(it.published) === today).length;
+  $("#todayNew").textContent = nToday ? `本日の新着 ${nToday}件` : "";
+  document.querySelectorAll("#tabs button").forEach(b => {
+    const c = b.querySelector(".c"); if (!c) return;
+    c.textContent = b.dataset.cat === "all" ? week.length : week.filter(it => it.categories.includes(b.dataset.cat)).length;
+  });
+  $("#tabs").title = "件数は直近7日";
 }
 
 $("#relOnly").addEventListener("click", e => { state.rel = !state.rel; e.currentTarget.setAttribute("aria-pressed", state.rel); refresh(); });
