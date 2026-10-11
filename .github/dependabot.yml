@@ -1,0 +1,22 @@
+# 依存関係の更新を GitHub に毎週確認してもらう設定（更新があれば Pull Request が自動で作られる）
+version: 2
+updates:
+  # ワークフローで使っている GitHub Actions（actions/checkout など）
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+      timezone: "Asia/Tokyo"
+    open-pull-requests-limit: 5
+
+  # Python のライブラリ（requirements.txt の feedparser など）
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+      timezone: "Asia/Tokyo"
+    open-pull-requests-limit: 5

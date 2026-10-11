@@ -1,0 +1,15 @@
+{
+  "name": "AI News",
+  "short_name": "AI News",
+  "description": "生成AI・ビジネス活用・政策・研究のAIニュースとプレスリリースを毎朝8時に自動で収集・分類しています。",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F7F9FC",
+  "theme_color": "#F7F9FC",
+  "icons": [
+    { "src": "icons/ai-round-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/ai-round-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "site_name": "AI News",
+  "site_url": "https://nskr-ai-news.pages.dev/",
+  "notify_tag": "robot",
+  "keep_days": 90,
+  "max_items": 3000,
+  "categories": [
+    {
+      "key": "genai",
+      "label": "生成AI",
+      "en": "GENERATIVE AI",
+      "color": "#7C5CFF"
+    },
+    {
+      "key": "biz",
+      "label": "ビジネス活用",
+      "en": "BUSINESS",
+      "color": "#1F8A70"
+    },
+    {
+      "key": "policy",
+      "label": "政策・規制",
+      "en": "POLICY",
+      "color": "#C2416B"
+    },
+    {
+      "key": "tech",
+      "label": "研究・半導体",
+      "en": "RESEARCH",
+      "color": "#2F6FB5"
+    }
+  ],
+  "must_include": [
+    "AI",
+    "人工知能",
+    "生成AI",
+    "ChatGPT",
+    "OpenAI",
+    "Anthropic",
+    "Claude",
+    "Gemini",
+    "Copilot",
+    "LLM",
+    "大規模言語モデル",
+    "機械学習",
+    "ディープラーニング",
+    "深層学習",
+    "NVIDIA",
+    "エヌビディア",
+    "GPT",
+    "DeepSeek",
+    "Grok",
+    "Perplexity",
+    "Llama",
+    "Sora",
+    "Midjourney",
+    "チャットボット",
+    "画像生成"
+  ],
+  "keywords": {
+    "genai": [
+      "生成AI",
+      "ChatGPT",
+      "OpenAI",
+      "Claude",
+      "Anthropic",
+      "Gemini",
+      "Copilot",
+      "LLM",
+      "大規模言語モデル",
+      "AIエージェント",
+      "エージェント型",
+      "GPT",
+      "Llama",
+      "Grok",
+      "Perplexity",
+      "DeepSeek",
+      "Mistral",
+      "画像生成",
+      "動画生成",
+      "Sora",
+      "Midjourney",
+      "Stable Diffusion",
+      "チャットボット",
+      "対話型AI"
+    ],
+    "biz": [
+      "導入",
+      "活用",
+      "業務",
+      "効率化",
+      "DX",
+      "提供開始",
+      "法人向け",
+      "企業向け",
+      "自治体",
+      "実証",
+      "提携",
+      "協業",
+      "資金調達",
+      "サービス開始",
+      "発売",
+      "ソリューション",
+      "顧客",
+      "人手不足",
+      "省人化"
+    ],
+    "policy": [
+      "規制",
+      "法案",
+      "法律",
+      "AI法",
+      "AI推進法",
+      "ガイドライン",
+      "指針",
+      "著作権",
+      "政府",
+      "総務省",
+      "経済産業省",
+      "経産省",
+      "デジタル庁",
+      "内閣府",
+      "文部科学省",
+      "文科省",
+      "個人情報",
+      "安全性",
+      "EU",
+      "欧州委員会",
+      "ホワイトハウス",
+      "訴訟",
+      "提訴",
+      "偽情報",
+      "ディープフェイク",
+      "AISI",
+      "国会",
+      "首相",
+      "大臣"
+    ],
+    "tech": [
+      "研究",
+      "論文",
+      "半導体",
+      "GPU",
+      "NVIDIA",
+      "エヌビディア",
+      "データセンター",
+      "量子",
+      "ロボット",
+      "推論",
+      "ベンチマーク",
+      "オープンソース",
+      "大学",
+      "研究所",
+      "スパコン",
+      "TPU",
+      "チップ",
+      "新モデル",
+      "モデルを公開"
+    ]
+  },
+  "exclude_patterns": [
+    "に関するプレスリリース",
+    "プレスリリース一覧",
+    "^PR TIMES$",
+    "^News Release$",
+    "^PowerPoint プレゼンテーション$",
+    "利用規約",
+    "よくあるご質問",
+    "よくある質問",
+    "ヘルプ"
+  ],
+  "exclude_sources": [
+    "YouTube"
+  ],
+  "feeds": [
+    {
+      "name": "Googleニュース「生成AI」",
+      "url": "https://news.google.com/rss/search?q=%E7%94%9F%E6%88%90AI%20when%3A7d&hl=ja&gl=JP&ceid=JP:ja",
+      "type": "news",
+      "default_category": "genai"
+    },
+    {
+      "name": "Googleニュース「ChatGPT・OpenAI」",
+      "url": "https://news.google.com/rss/search?q=ChatGPT%20OR%20OpenAI%20when%3A7d&hl=ja&gl=JP&ceid=JP:ja",
+      "type": "news",
+      "default_category": "genai"
+    },
+    {
+      "name": "Googleニュース「Claude・Gemini」",
+      "url": "https://news.google.com/rss/search?q=Anthropic%20OR%20Claude%20OR%20Gemini%20AI%20when%3A7d&hl=ja&gl=JP&ceid=JP:ja",
+      "type": "news",
+      "default_category": "genai"
+    },
+    {
+      "name": "Googleニュース「AIエージェント」",
+      "url": "https://news.google.com/rss/search?q=AI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%20when%3A7d&hl=ja&gl=JP&ceid=JP:ja",
+      "type": "news",
+      "default_category": "genai"
+    },
+    {
+      "name": "Googleニュース「AI 導入・活用」",
+      "url": "https://news.google.com/rss/search?q=AI%20%E5%B0%8E%E5%85%A5%20OR%20AI%20%E6%B4%BB%E7%94%A8%20%E4%BC%81%E6%A5%AD%20when%3A7d&hl=ja&gl=JP&ceid=JP:ja",
+      "type": "news",
+      "default_category": "biz"
+    },
+    {
+      "name": "Googleニュース「AI 規制・法律」",
+      "url": "https://news.google.com/rss/search?q=AI%20%E8%A6%8F%E5%88%B6%20OR%20AI%E6%B3%95%20OR%20AI%20%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3%20when%3A7d&hl=ja&gl=JP&ceid=JP:ja",
+      "type": "news",
+      "default_category": "policy"
+    },
+    {
+      "name": "Googleニュース「AI 半導体・エヌビディア」",
+      "url": "https://news.google.com/rss/search?q=AI%20%E5%8D%8A%E5%B0%8E%E4%BD%93%20OR%20%E3%82%A8%E3%83%8C%E3%83%93%E3%83%87%E3%82%A3%E3%82%A2%20OR%20%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%20AI%20when%3A7d&hl=ja&gl=JP&ceid=JP:ja",
+      "type": "news",
+      "default_category": "tech"
+    },
+    {
+      "name": "PR TIMES（AI）",
+      "url": "https://news.google.com/rss/search?q=site%3Aprtimes.jp%20%28%E7%94%9F%E6%88%90AI%20OR%20AI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%20OR%20%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%29%20when%3A7d&hl=ja&gl=JP&ceid=JP:ja",
+      "type": "release",
+      "default_category": "biz"
+    },
+    {
+      "name": "省庁（デジタル庁・総務省・経産省）",
+      "url": "https://news.google.com/rss/search?q=%28site%3Adigital.go.jp%20OR%20site%3Asoumu.go.jp%20OR%20site%3Ameti.go.jp%29%20AI%20when%3A30d&hl=ja&gl=JP&ceid=JP:ja",
+      "type": "release",
+      "default_category": "policy"
+    },
+    {
+      "name": "ITmedia AI+",
+      "url": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
+      "type": "news",
+      "default_category": "genai"
+    },
+    {
+      "name": "AINOW",
+      "url": "https://ainow.ai/feed/",
+      "type": "news",
+      "default_category": "biz"
+    },
+    {
+      "name": "Publickey",
+      "url": "https://www.publickey1.jp/atom.xml",
+      "type": "news",
+      "default_category": "tech"
+    },
+    {
+      "name": "日経クロステック",
+      "url": "https://xtech.nikkei.com/rss/index.rdf",
+      "type": "news",
+      "default_category": "biz"
+    },
+    {
+      "name": "ASCII.jp",
+      "url": "https://ascii.jp/rss.xml",
+      "type": "news",
+      "default_category": "biz"
+    },
+    {
+      "name": "Impress Watch",
+      "url": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+      "type": "news",
+      "default_category": "biz"
+    }
+  ]
+}

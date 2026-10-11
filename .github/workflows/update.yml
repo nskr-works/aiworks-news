@@ -1,0 +1,42 @@
+name: ニュース更新
+
+on:
+  # 1日1回、朝8時ごろに取得する
+  # （GitHub は毎時0分に実行が集中して遅延・欠落しやすいので、7分にずらしている）
+  schedule:
+    - cron: "7 23 * * *"   # 毎日 8:07 JST
+  workflow_dispatch:        # 手動実行ボタン
+
+# 標準では権限を何も与えず、必要なジョブにだけ最小限を付ける
+permissions: {}
+
+concurrency:
+  group: update-news
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # 取得した記事データ（docs/data.json など）をコミット・push するためだけに必要
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - run: python scripts/fetch_news.py
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}   # 新着通知の宛先（未設定なら通知しない）。通知のリンク先は config.json の site_url
+
+      - name: 変更があればコミット
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add docs/data.json stats/feed_log.csv
+          git diff --cached --quiet || git commit -m "ニュース更新 $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M')"
+          git pull --rebase
+          git push

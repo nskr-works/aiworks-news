@@ -1,0 +1,19 @@
+# Cloudflare Pages 用のレスポンスヘッダー設定（公開フォルダ docs/ の直下に置く必要がある）
+# GitHub Pages では使われない（ファイルとしてそのまま公開されるだけ）。
+#
+# X-Content-Type-Options：ブラウザに中身の種類を推測させない
+# X-Frame-Options：他のサイトの枠（iframe）の中に表示させない
+# Referrer-Policy：外部サイトへ移るときは、こちらのドメイン名だけを伝える
+# Permissions-Policy：使わないブラウザ機能（カメラ・マイク・位置情報など）を無効にする
+# Content-Security-Policy：読み込んでよい場所を限定する
+#   script：このサイトのファイル（app.js・sw.js）だけ。ページ内に直接書いたスクリプトは禁止
+#   style：このサイト・ページ内の記述（色の切り替えに使用）・Googleフォントの CSS
+#   font：Googleフォントのファイル　img：このサイト・Unsplash のヘッダー写真
+#   connect：data.json の取得（このサイトのみ）
+
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=(), browsing-topics=()
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://images.unsplash.com; connect-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests
