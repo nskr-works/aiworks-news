@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T11:36+09:00",
+ "updated_at": "2026-10-11T11:59+09:00",
  "collected_since": "2026-10-11T11:36+09:00",
  "categories": [
   {
@@ -43,6 +43,19 @@
    "via": "Googleニュース「ChatGPT・OpenAI」"
   },
   {
+   "id": "ea5ac0fa1c29a40a",
+   "title": "ハッキングから数学へ──OpenAIの新AI、数百の未解決問題に挑み数学の最前線を塗り替える",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pYXBmYnJ4UGxoMmloYVkxalFZU2VoQ3hjTlB0WnRmWWVtWDBRRXBzNlVRbTVYZDN3SU0tSTluT2lSUklYQUpoY3VpVmRPT0c3NlRncWhtUExXdmZqUlVMNXV2RDdBVjB6cnFqcjViUDJmRmtyNU1RbW8yVG1BQU0?oc=5",
+   "source": "Yahoo!ニュース",
+   "summary": "ハッキングから数学へ──OpenAIの新AI、数百の未解決問題に挑み数学の最前線を塗り替える Yahoo!ニュース",
+   "categories": [
+    "genai"
+   ],
+   "type": "news",
+   "published": "2026-10-11T11:00+09:00",
+   "via": "Googleニュース「ChatGPT・OpenAI」"
+  },
+  {
    "id": "16f2134cd1f957d9",
    "title": "「Gemini」AIモデルの思考レベルを安/中/高で指定可能に",
    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQY254QUxkR2p6bmVHaFBSX1ZRdTQ2UFo0NXJzdmVOOVc3QmNtbFR4YngwMGN2RW5Bd2FrTGtHa2ZpTlhtR3JqTmhsS19lUUd0bDJ3WEEwNGFSS0dNaDZqZUZoUlZGMTFma2ZKWnNkRTJZckFTbFJoSHhfWHBHeXlnZGtZck54Z0hvWUtIUw?oc=5",
@@ -53,6 +66,20 @@
    ],
    "type": "news",
    "published": "2026-10-11T10:51+09:00",
+   "via": "Googleニュース「Claude・Gemini」"
+  },
+  {
+   "id": "a95487b176195010",
+   "title": "Google、企業向けGeminiエージェントを発表——「メールアカウントを持つAI同僚」",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE52c1dkNHlYSFUtekM4RWd2UmFTcWxiRlo5cThVbW92V2RBaUFMZzg1RmdvcFNBSGR1aGo1N3d0ZThST2VsUjZ0OU0wYXhZVGZYZ21EODQ0OUdaUG1zME1DNjJvalFWZjZOUTA2cTVBajVvMnJK?oc=5",
+   "source": "BigGo ファイナンス",
+   "summary": "Google、企業向けGeminiエージェントを発表——「メールアカウントを持つAI同僚」 BigGo ファイナンス",
+   "categories": [
+    "biz",
+    "genai"
+   ],
+   "type": "news",
+   "published": "2026-10-11T10:35+09:00",
    "via": "Googleニュース「Claude・Gemini」"
   },
   {
@@ -269,6 +296,19 @@
    "via": "Googleニュース「生成AI」"
   },
   {
+   "id": "2dd5fa2bb785e49e",
+   "title": "米アンソロピック AIが警察に殺人事件の架空情報送信 | NHKニュース | 生成AI・人工知能、IT・ネット、アメリカ",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBfX0RKSUdZc2lDY1VwaF9udy1Qc1NqTjRXanNfVmk3WVN5aVhvU1FiMW9RNnp5eW8wMEd0MlJIZ29qVlJIcV9MNjljYnZRcnBxemNpMGphdXBjLWo4cTNj?oc=5",
+   "source": "NHKニュース",
+   "summary": "米アンソロピック AIが警察に殺人事件の架空情報送信 | NHKニュース | 生成AI・人工知能、IT・ネット、アメリカ NHKニュース",
+   "categories": [
+    "genai"
+   ],
+   "type": "news",
+   "published": "2026-10-10T19:03+09:00",
+   "via": "Googleニュース「生成AI」"
+  },
+  {
    "id": "f8fa196904eccc7a",
    "title": "動画生成AIを使わず動画ができる――Claudeがデータをダッシュボードやアニメに変える新機能を公開",
    "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5LYzh0RVBrcWo0U0x2R1c1b3p5ck9mSHBEcVVNYTJwcDloc1B5OHVqVHREaVQtaUJHV1JZOWZ3WUJ0QQ?oc=5",
@@ -280,6 +320,19 @@
    "type": "news",
    "published": "2026-10-10T17:31+09:00",
    "via": "Googleニュース「Claude・Gemini」"
+  },
+  {
+   "id": "5303fcc761d778df",
+   "title": "ノーコーダーズジャパン協会、協会名称を「AI & NoCoders Japan協会」に変更",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wUnRuN3o3Z3Zlc3YyOHZxNXJYRUlwb3IxXzRmNVRGZG0tenBPeDk2OXdJOTlPOVJwWFRFTEotZnFJWGxjbGFsNE1fMHVPRTc4YlJCd2Z6VGppSk0?oc=5",
+   "source": "朝日新聞",
+   "summary": "ノーコーダーズジャパン協会、協会名称を「AI & NoCoders Japan協会」に変更 朝日新聞",
+   "categories": [
+    "policy"
+   ],
+   "type": "news",
+   "published": "2026-10-10T16:37+09:00",
+   "via": "Googleニュース「AI 規制・法律」"
   },
   {
    "id": "8979936bcff4a39b",
@@ -5026,6 +5079,19 @@
    "via": "Googleニュース「AIエージェント」"
   },
   {
+   "id": "b8daa6a46f565a54",
+   "title": "そろそろ追いつこう。AIエージェント入門2026秋｜てけしゅん",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBsYVZYZHMxQzRJYmVUdjF4QkRnRkU1MDc4c0VEbXk2aG9IS2hjc0U5MHJ5YU94RTVvRjE2VzJTVVBUd3NLQklLSy0wZFB1Vi1lR1B3?oc=5",
+   "source": "note",
+   "summary": "そろそろ追いつこう。AIエージェント入門2026秋｜てけしゅん note",
+   "categories": [
+    "genai"
+   ],
+   "type": "news",
+   "published": "2026-10-08T11:24+09:00",
+   "via": "Googleニュース「AIエージェント」"
+  },
+  {
    "id": "e59e68ae01dd4593",
    "title": "「Agentic Enterprise」を実現するHPEの戦略--AIエージェント時代の新たなIT運用",
    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBDbXhhS1E0UXZ6Q0pxTjFjN3hfVUh1TENwTF9zTm5uUGR1aVpzZENtRzhRX3VEREtIeHBrSllqZFBMdmNuMkNDVWRBZ2dEdXhzT1RB?oc=5",
@@ -5763,7 +5829,8 @@
    ],
    "type": "release",
    "published": "2026-10-08T08:00+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": ""
   },
   {
    "id": "9bc1f84e864c09a6",
@@ -5991,6 +6058,19 @@
    "via": "Googleニュース「AI 半導体・エヌビディア」"
   },
   {
+   "id": "4844e295d2ae183b",
+   "title": "Microsoft、NVIDIA半導体をパソコンの頭脳に 「AI常時稼働でも無料」",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9qZnBCbTFrYV8zNmQ0YWpuNGRodnZ0cjlia2RxeXNzUmRTN0w0dDh2MlNSZUNVNjdtVUI2OGZqbk9WVzIxakg0U3dJUE04dmJOVXlLRlpXWGlGTWpGaVlySHB3azY1eF9JOUp6OQ?oc=5",
+   "source": "日本経済新聞",
+   "summary": "Microsoft、NVIDIA半導体をパソコンの頭脳に 「AI常時稼働でも無料」 日本経済新聞",
+   "categories": [
+    "tech"
+   ],
+   "type": "news",
+   "published": "2026-10-08T06:18+09:00",
+   "via": "Googleニュース「AI 半導体・エヌビディア」"
+  },
+  {
    "id": "f72560db9a9a81e4",
    "title": "ハイアールジャパンセールス、家電修理の切り分けから受付までを応対するAIエージェントを稼働",
    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBRUlYwV3o4Q0FDUXEzVXB1b01SbHkwZXAwSVphSzROVEJ3QXdCaVhhZVMzYk5ZY2l6ME1YMVZ2dmdMYmhNT0JGOEFiZFAzQ2l4VmxHblpKYzVoVmJRaU5NbmFnSQ?oc=5",
@@ -6185,7 +6265,8 @@
    ],
    "type": "release",
    "published": "2026-10-08T03:38+09:00",
-   "via": "Googleニュース「生成AI」"
+   "via": "Googleニュース「生成AI」",
+   "company": "Amagicsoft"
   },
   {
    "id": "7143c4d4fae5953b",
@@ -6277,7 +6358,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T23:04+09:00",
-   "via": "Googleニュース「AI 導入・活用」"
+   "via": "Googleニュース「AI 導入・活用」",
+   "company": "株式会社BOTANICO"
   },
   {
    "id": "9cc86d272c2e9ca4",
@@ -6291,6 +6373,32 @@
    "type": "news",
    "published": "2026-10-07T21:42+09:00",
    "via": "Googleニュース「AI 導入・活用」"
+  },
+  {
+   "id": "497e69628c8c892a",
+   "title": "GPT-5.6 Sol プレビュー：次世代モデル",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mSDFScHZ1T08wR3NRTWtmVllMcHg1Z0Uza3loM1RtRU5fdnJXY2FVQ3NQd1JBclp5MG0zRzUtcUZJVk05c0NlVlFkRnJxcGpMQW9WS283eXcyX2Q4dFVXQ2ltSk0?oc=5",
+   "source": "OpenAI",
+   "summary": "GPT-5.6 Sol プレビュー：次世代モデル OpenAI",
+   "categories": [
+    "genai"
+   ],
+   "type": "news",
+   "published": "2026-10-07T21:00+09:00",
+   "via": "Googleニュース「ChatGPT・OpenAI」"
+  },
+  {
+   "id": "23c76c4be2b4fd43",
+   "title": "GPT-6 Sol と Luna のご紹介",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE00RFRkTWc5alJRVVhHNE9ULTdtSjM2WW1tSloyc0FWNDRsTVVoUVBTLVFBWURPRk00bk8zR0hPT242VUtoSkRaV2tLUDBLT1lFRWJpTUNsMlFLUldBUVJOY01Dd0hVM0w1UEJoU0JkZw?oc=5",
+   "source": "OpenAI",
+   "summary": "GPT-6 Sol と Luna のご紹介 OpenAI",
+   "categories": [
+    "genai"
+   ],
+   "type": "news",
+   "published": "2026-10-07T21:00+09:00",
+   "via": "Googleニュース「ChatGPT・OpenAI」"
   },
   {
    "id": "6bf7254a1b80ce5c",
@@ -6450,7 +6558,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T17:00+09:00",
-   "via": "Googleニュース「AIエージェント」"
+   "via": "Googleニュース「AIエージェント」",
+   "company": "アスエネ株式会社"
   },
   {
    "id": "28b8eee14f34dfae",
@@ -6490,7 +6599,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T16:30+09:00",
-   "via": "Googleニュース「生成AI」"
+   "via": "Googleニュース「生成AI」",
+   "company": "ウィーメックス株式会社"
   },
   {
    "id": "bb3eb44cf3f82e4d",
@@ -6503,7 +6613,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T16:17+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "7250713544557c4d",
@@ -6569,7 +6680,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T16:00+09:00",
-   "via": "Googleニュース「AI 規制・法律」"
+   "via": "Googleニュース「AI 規制・法律」",
+   "company": "株式会社Archaic"
   },
   {
    "id": "1401db8d1c927f98",
@@ -6595,7 +6707,21 @@
    ],
    "type": "release",
    "published": "2026-10-07T16:00+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "株式会社サンディアス"
+  },
+  {
+   "id": "95d2dc03893474c8",
+   "title": "AIデータセンター需要を追う注目株 3選",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdzRrZlZZdGxfZTR2TFpXSHkxQzVyN1ZqbUxZWWxOWXhpWE1JZ3I5NkxQNnctYTBlSURKRmxRam5WWjlueTI3SUp2VEdhSFFnQl9hakV1ZWVOVG1IREwweEh0UWRaZGxzNnNGLWFicnd3SEhMYXdOVU1KNWhmRW1ob2FHX1JyOW9ObTM1bG1vODhsODdTVnZLaGYwY1ZZdUFqUzl6UEJ2MGFnRHZSTXZ5bjVMbDdRNkFrSl95OEk0SU5HZ1NRbVJsMGR3MGNOejVMSFdrczFwcTFaQdIBpAFBVV95cUxOU2tMdzNKb01KdU1SWUpjemt0clRTWms0bktSbGkwbERjakJqXzl1blVUMExfZUROZ1RoUkNmRkdNa0NuWFlzbWNOMjNmOU1VSlprUzZFLWx1MEM3ek5xbEJIaER3bHY0MTFIdXFkMDRLcExGNlcyUWhiWTE4WHd2TWViX2pYZzJxbjRfYlpLU0VQMWxXRWM5TW9Gc2lGTEJNUkxveA?oc=5",
+   "source": "Simply Wall Street",
+   "summary": "AIデータセンター需要を追う注目株 3選 Simply Wall Street",
+   "categories": [
+    "tech"
+   ],
+   "type": "news",
+   "published": "2026-10-07T16:00+09:00",
+   "via": "Googleニュース「AI 半導体・エヌビディア」"
   },
   {
    "id": "e93c19ef6dbdf349",
@@ -6623,7 +6749,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T15:39+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": ""
   },
   {
    "id": "2097ab29a20933ef",
@@ -6637,7 +6764,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T15:38+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "株式会社BearBee"
   },
   {
    "id": "1f9cf9fdd94cc7c9",
@@ -6677,7 +6805,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T15:00+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "フューチャー株式会社"
   },
   {
    "id": "854f05bc0bbea51d",
@@ -6691,7 +6820,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T15:00+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "NTT西日本株式会社"
   },
   {
    "id": "7b0b03fb25f43dda",
@@ -6705,7 +6835,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T15:00+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "株式会社Mico"
   },
   {
    "id": "69f0eb0f0c689f45",
@@ -6718,7 +6849,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T14:50+09:00",
-   "via": "Googleニュース「AI 導入・活用」"
+   "via": "Googleニュース「AI 導入・活用」",
+   "company": "一般社団法人日本AI導入支援協会"
   },
   {
    "id": "1e24de0f303f6e92",
@@ -6770,7 +6902,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T14:20+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "Figma Japan株式会社"
   },
   {
    "id": "449b4aa509d7aa7b",
@@ -6784,7 +6917,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T14:03+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "株式会社Digeon"
   },
   {
    "id": "7fa13de92411ab47",
@@ -6823,7 +6957,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T14:00+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "デル・テクノロジーズ株式会社"
   },
   {
    "id": "e2856b82e79db296",
@@ -6903,7 +7038,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T13:22+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "ワザアカ株式会社"
   },
   {
    "id": "9bb9d8ae399ff4e6",
@@ -6957,7 +7093,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T12:23+09:00",
-   "via": "Googleニュース「AI 規制・法律」"
+   "via": "Googleニュース「AI 規制・法律」",
+   "company": "株式会社Uravation"
   },
   {
    "id": "7efef546bfccd270",
@@ -6971,7 +7108,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T12:00+09:00",
-   "via": "Googleニュース「AIエージェント」"
+   "via": "Googleニュース「AIエージェント」",
+   "company": "株式会社フライル"
   },
   {
    "id": "a2cd44694bf5772c",
@@ -6984,7 +7122,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T12:00+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "株式会社Algomatic"
   },
   {
    "id": "193112b7d85755d7",
@@ -6997,7 +7136,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T12:00+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "Animoca Brands 株式会社"
   },
   {
    "id": "53f2bc1e2d1882df",
@@ -7010,7 +7150,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T12:00+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "ブルーモ証券株式会社"
   },
   {
    "id": "64d72773f2f7c3e1",
@@ -7023,7 +7164,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T12:00+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "株式会社ブランディングワークス"
   },
   {
    "id": "faf6c8f3026b6c12",
@@ -7076,7 +7218,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T11:30+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "Ragate株式会社"
   },
   {
    "id": "822bd19dfe5aa2c3",
@@ -7105,7 +7248,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T11:10+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "一般財団法人オープンバッジ・ネットワーク"
   },
   {
    "id": "164b7240fd713d7e",
@@ -7145,7 +7289,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T11:02+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "東京エレクトロン デバイス株式会社"
   },
   {
    "id": "8babdfe116042771",
@@ -7158,7 +7303,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T11:00+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "株式会社日立ソリューションズ・クリエイト"
   },
   {
    "id": "8c0d7c7a90d2ea17",
@@ -7171,7 +7317,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T11:00+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "LINEヤフー株式会社"
   },
   {
    "id": "08a8b85eaf357dbc",
@@ -7184,7 +7331,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T11:00+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "株式会社モリサワ"
   },
   {
    "id": "5fbb1cb6784ebfcc",
@@ -7224,7 +7372,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T10:30+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "クリサク株式会社"
   },
   {
    "id": "3223f3b67a444765",
@@ -7238,7 +7387,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T10:00+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "株式会社テンダ"
   },
   {
    "id": "fefaffefc0b1c796",
@@ -7251,7 +7401,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T10:00+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "株式会社アシロ"
   },
   {
    "id": "3de63ca5a0c994ca",
@@ -7265,7 +7416,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T10:00+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "Keeper Security APAC株式会社"
   },
   {
    "id": "77e426f0ddf29af1",
@@ -7332,7 +7484,8 @@
    ],
    "type": "release",
    "published": "2026-10-07T09:00+09:00",
-   "via": "PR TIMES（AI）"
+   "via": "PR TIMES（AI）",
+   "company": "Ｅｌｅｖｅｎ Ｌａｂｓ Ｊａｐａｎ合同会社"
   },
   {
    "id": "6a8dc5ea0ee34c51",
@@ -7346,6 +7499,20 @@
    "type": "news",
    "published": "2026-10-07T08:44+09:00",
    "via": "Googleニュース「AI 半導体・エヌビディア」"
+  },
+  {
+   "id": "802983cce42586d8",
+   "title": "顧客に寄り添うAIエージェント",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOQlNfZEtCMjhQeW5HTGZlbVNLUFRjWjlWUnBrd0N6c084aEw5Tkw4SkxkYlVuaWR2RmpsRGwzNWNMMFgxTzEwQ1RxeXZRSEZOdUhUX2xMMkVpNTBwOHk5U0FTaldaeDdrZkUxRW9LRnZzN1VoQ1JOb3dRZWRNVl9YUGgzZzdYQzdyODJOb2JmQ2dJSFdPczNUdlFuOGdEYUNWX2JXcGhyTGx6SS1oMEo4a1czRW1iakpFNWtPS19heEhvYmZBcjZXYU56QXlOWkd1M2V1ZWF1SEFaTTgyZGVlTHF1MHYtWHJUb2hJbnJZaGhnNVBvR095RHlLU0doUQ?oc=5",
+   "source": "日経クロステック（xTECH）",
+   "summary": "顧客に寄り添うAIエージェント 日経クロステック（xTECH）",
+   "categories": [
+    "biz",
+    "genai"
+   ],
+   "type": "news",
+   "published": "2026-10-07T07:33+09:00",
+   "via": "Googleニュース「AIエージェント」"
   },
   {
    "id": "e820e56539c03895",
@@ -7569,7 +7736,8 @@
    ],
    "type": "release",
    "published": "2026-10-06T22:23+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "e179cad472683d5a",
@@ -7982,7 +8150,8 @@
    ],
    "type": "release",
    "published": "2026-10-06T10:00+09:00",
-   "via": "Googleニュース「AI 規制・法律」"
+   "via": "Googleニュース「AI 規制・法律」",
+   "company": "AI Portalize株式会社"
   },
   {
    "id": "fe3d4c1f6caf127a",
@@ -7995,7 +8164,8 @@
    ],
    "type": "release",
    "published": "2026-10-06T09:50+09:00",
-   "via": "Googleニュース「AI 規制・法律」"
+   "via": "Googleニュース「AI 規制・法律」",
+   "company": "一般財団法人日本規格協会"
   },
   {
    "id": "102371f3934ee407",
@@ -8142,6 +8312,20 @@
    "type": "news",
    "published": "2026-10-06T06:47+09:00",
    "via": "Googleニュース「AI 規制・法律」"
+  },
+  {
+   "id": "8d09727850e73b05",
+   "title": "OpenAI、ChatGPTの画像生成機能に連動するビジュアル広告を導入へ。まず米国でテスト開始",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE42MEk3R2pjR3p0bTBqX0l0QTZmRlJpOVg1aDk4d3c1RFNuX0hfQTFpX2NRMTVmNnhlM3ROLVI1YzMybkYxZVlqSHhIV3VQV3N0YmxqbjAybTIyWHRqXzNpN1pEZ0Z3LUE?oc=5",
+   "source": "テクノエッジ TechnoEdge",
+   "summary": "OpenAI、ChatGPTの画像生成機能に連動するビジュアル広告を導入へ。まず米国でテスト開始 テクノエッジ TechnoEdge",
+   "categories": [
+    "biz",
+    "genai"
+   ],
+   "type": "news",
+   "published": "2026-10-06T06:45+09:00",
+   "via": "Googleニュース「ChatGPT・OpenAI」"
   },
   {
    "id": "5ebdee10d851ec6d",
@@ -8484,7 +8668,8 @@
    ],
    "type": "release",
    "published": "2026-10-05T12:00+09:00",
-   "via": "Googleニュース「AI 規制・法律」"
+   "via": "Googleニュース「AI 規制・法律」",
+   "company": "一般社団法人日本CTO協会"
   },
   {
    "id": "5a8579037dc99f8d",
@@ -8577,7 +8762,8 @@
    ],
    "type": "release",
    "published": "2026-10-05T09:00+09:00",
-   "via": "Googleニュース「AIエージェント」"
+   "via": "Googleニュース「AIエージェント」",
+   "company": "株式会社みずほフィナンシャルグループ"
   },
   {
    "id": "3f6264732adaadc5",
@@ -8791,7 +8977,8 @@
    ],
    "type": "release",
    "published": "2026-10-02T11:56+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "6886f69ea86f6f21",
@@ -8804,7 +8991,8 @@
    ],
    "type": "release",
    "published": "2026-10-01T18:02+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "47e0f680ec2e638c",
@@ -8817,7 +9005,8 @@
    ],
    "type": "release",
    "published": "2026-10-01T14:16+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "f8d51c4998708b6b",
@@ -8831,7 +9020,8 @@
    ],
    "type": "release",
    "published": "2026-09-30T23:24+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "de1dafdc6ecf6599",
@@ -8873,7 +9063,8 @@
    ],
    "type": "release",
    "published": "2026-09-30T16:00+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": "熊本地震の被災自治体等へ"
   },
   {
    "id": "7de7dbfc3bdc7a35",
@@ -8913,7 +9104,8 @@
    ],
    "type": "release",
    "published": "2026-09-29T14:19+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "939adeb589187db6",
@@ -8926,7 +9118,8 @@
    ],
    "type": "release",
    "published": "2026-09-29T08:00+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "19d737cbc8c95b6c",
@@ -8939,7 +9132,8 @@
    ],
    "type": "release",
    "published": "2026-09-29T03:29+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "7d89a7cc79b83678",
@@ -8980,7 +9174,8 @@
    ],
    "type": "release",
    "published": "2026-09-28T16:00+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "8cc797b0aa0211a0",
@@ -8993,7 +9188,8 @@
    ],
    "type": "release",
    "published": "2026-09-25T16:00+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "8af4f8ded231660a",
@@ -9006,7 +9202,8 @@
    ],
    "type": "release",
    "published": "2026-09-25T14:18+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "f8ecbd901f1b67dc",
@@ -9019,7 +9216,8 @@
    ],
    "type": "release",
    "published": "2026-09-24T10:31+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "f0dd616bc2334e5e",
@@ -9033,7 +9231,8 @@
    ],
    "type": "release",
    "published": "2026-09-19T02:14+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "c1a73c57192f20a6",
@@ -9046,7 +9245,8 @@
    ],
    "type": "release",
    "published": "2026-09-19T02:13+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "6b2e15409c3b0b3d",
@@ -9060,7 +9260,8 @@
    ],
    "type": "release",
    "published": "2026-09-19T02:11+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "73fccdb58d492029",
@@ -9073,7 +9274,8 @@
    ],
    "type": "release",
    "published": "2026-09-18T16:00+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "5a1043fc75fab0a8",
@@ -9086,7 +9288,8 @@
    ],
    "type": "release",
    "published": "2026-09-18T16:00+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "0ae8b767d189c341",
@@ -9102,7 +9305,8 @@
    ],
    "type": "release",
    "published": "2026-09-18T16:00+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "e236e6db1ce887a3",
@@ -9115,7 +9319,8 @@
    ],
    "type": "release",
    "published": "2026-09-18T16:00+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "ebc4f6c5d565b1a9",
@@ -9130,7 +9335,8 @@
    ],
    "type": "release",
    "published": "2026-09-16T16:00+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "d440cf31c6a4cca0",
@@ -9145,7 +9351,8 @@
    ],
    "type": "release",
    "published": "2026-09-16T16:00+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "b5057477ea96c1dc",
@@ -9158,7 +9365,8 @@
    ],
    "type": "release",
    "published": "2026-09-14T16:00+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "104ae3ef854d34a2",
@@ -9172,7 +9380,8 @@
    ],
    "type": "release",
    "published": "2026-09-12T00:55+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   },
   {
    "id": "6a9776649167eef7",
@@ -9185,7 +9394,8 @@
    ],
    "type": "release",
    "published": "2026-07-29T19:17+09:00",
-   "via": "省庁（デジタル庁・総務省・経産省）"
+   "via": "省庁（デジタル庁・総務省・経産省）",
+   "company": ""
   }
  ]
 }
