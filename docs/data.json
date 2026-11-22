@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T12:54+09:00",
+ "updated_at": "2026-11-22T12:00+09:00",
  "collected_since": "2026-10-11T11:36+09:00",
  "categories": [
   {
@@ -29,6 +29,101 @@
  ],
  "topics": {},
  "items": [
+  {
+   "id": "3382112c489f84fa",
+   "title": "ゴムマリの業務AIエージェント『ターゲットリスト作成』、官公庁・自治体の発注機関の選定に対応",
+   "link": "https://ascii.jp/elem/000/004/453/4453867/?rss",
+   "source": "ASCII.jp",
+   "summary": "",
+   "categories": [
+    "biz",
+    "genai"
+   ],
+   "type": "news",
+   "published": "2026-11-22T10:00+09:00",
+   "via": "ASCII.jp"
+  },
+  {
+   "id": "5e8790c5b52d3238",
+   "title": "ゴムマリの業務AIエージェント、『広告審査』を提供開始",
+   "link": "https://ascii.jp/elem/000/004/453/4453857/?rss",
+   "source": "ASCII.jp",
+   "summary": "",
+   "categories": [
+    "biz",
+    "genai"
+   ],
+   "type": "news",
+   "published": "2026-11-22T09:00+09:00",
+   "via": "ASCII.jp"
+  },
+  {
+   "id": "bd6f4f4ad36d8728",
+   "title": "Anthropicの数学者、「Claude」と共同で「リーマン予想」を証明したと主張 Leanコミュニティが「正しい」と認定",
+   "link": "https://www.itmedia.co.jp/news/article/2611/22/2000003388/",
+   "source": "ITmedia AI+",
+   "summary": "Anthropicの数学者レベント・アルポーゲ氏は、「Claude」と共同で未解決問題「リーマン予想」の証明を発見したと発表した。証明支援系「Lean」で記述された1700万行の形式証明を公開しており、Leanコミュニティは複数の検証を経て「証明は正しい」と認定する共同声明を出した。",
+   "categories": [
+    "genai"
+   ],
+   "type": "news",
+   "published": "2026-11-22T08:21+09:00",
+   "via": "ITmedia AI+"
+  },
+  {
+   "id": "fe8d9ebb1eb8543f",
+   "title": "ゴムマリの業務AIエージェント、『不良分析』を提供開始",
+   "link": "https://ascii.jp/elem/000/004/453/4453858/?rss",
+   "source": "ASCII.jp",
+   "summary": "",
+   "categories": [
+    "biz",
+    "genai"
+   ],
+   "type": "news",
+   "published": "2026-11-22T08:00+09:00",
+   "via": "ASCII.jp"
+  },
+  {
+   "id": "74519aa9cc5d3eba",
+   "title": "AIに必要なのは知識か、企業独自の判断基準か？ 管理職調査で見えたAI活用の盲点",
+   "link": "https://kn.itmedia.co.jp/kn/article/2611/22/2000003384/",
+   "source": "ITmedia AI+",
+   "summary": "管理職を対象とした勤務先でのAI活用に関する調査では、半数以上が利用されなくなったAIツールや用途があると回答した。背景には、企業独自の判断基準に関わる課題があるようだ。",
+   "categories": [
+    "biz"
+   ],
+   "type": "news",
+   "published": "2026-11-22T06:00+09:00",
+   "via": "ITmedia AI+"
+  },
+  {
+   "id": "d253d136e5ec5451",
+   "title": "20万円切りで、最新スペックのノートPC これは正真正銘の「これで十分」だ",
+   "link": "https://ascii.jp/elem/000/004/453/4453842/?rss",
+   "source": "ASCII.jp",
+   "summary": "ノートPCが値上がり中の現在、有機ELディスプレー搭載で1kg以下、しかもCopilot＋ PCという超お買い得モバイルノートPCが登場。それが、日本エイサーの「Acer Swift Air 14 SFA14-61M-A56Y」です！",
+   "categories": [
+    "genai"
+   ],
+   "type": "news",
+   "published": "2026-11-21T19:30+09:00",
+   "via": "ASCII.jp"
+  },
+  {
+   "id": "4d3f07a99b2f5b99",
+   "title": "企業はAIをどう選ぶようになった？ ChatGPT、Copilot、Geminiの勢力図",
+   "link": "https://kn.itmedia.co.jp/kn/article/2611/21/2000003385/",
+   "source": "ITmedia AI+",
+   "summary": "企業が業務で利用するAIサービスの顔ぶれが変わりつつある。従来のように個別のAIサービスを選ぶだけでなく、既存の業務環境に組み込まれたAIを利用する動きも広がっているようだ。",
+   "categories": [
+    "biz",
+    "genai"
+   ],
+   "type": "news",
+   "published": "2026-11-21T14:22+09:00",
+   "via": "ITmedia AI+"
+  },
   {
    "id": "45ffc790c59ce996",
    "title": "来歴情報「C2PA」付き画像は5.8%、生成AI記録ありでも「可能性高い」判定は約4割 Uravation調査",
@@ -40188,100 +40283,6 @@
    "type": "news",
    "published": "2026-11-10T11:00+09:00",
    "via": "ASCII.jp"
-  },
-  {
-   "id": "677d7f47be754963",
-   "title": "【無料聴講・録画視聴可能】大容量メモリ搭載！AI/LLM時代の新マイコン・システム開発",
-   "link": "https://ascii.jp/elem/000/004/450/4450079/?rss",
-   "source": "ASCII.jp",
-   "summary": "",
-   "categories": [
-    "genai"
-   ],
-   "type": "news",
-   "published": "2026-11-10T11:00+09:00",
-   "via": "ASCII.jp"
-  },
-  {
-   "id": "bcb336c7190f09f0",
-   "title": "AI活用、何から始める？／ 60秒の無料診断で、最適なAI導入プランがわかる 「B2B向けAIソリューション」サイトを開設",
-   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kbHpFOUdPb0xxUEd5d0hJSlZaNHJNejR1aVZBeDdwRkpNNkNSd21nOElaODdkdXg5OGhfdjdIMUZWaW12bDNVQ1ZqazdwVXM?oc=5",
-   "source": "Newscast.jp",
-   "summary": "AI活用、何から始める？／ 60秒の無料診断で、最適なAI導入プランがわかる 「B2B向けAIソリューション」サイトを開設 Newscast.jp",
-   "categories": [
-    "biz"
-   ],
-   "type": "news",
-   "published": "2026-11-10T11:00+09:00",
-   "via": "Googleニュース「AI 導入・活用」"
-  },
-  {
-   "id": "8c4e9fa98a112580",
-   "title": "MetaのAIエージェント「Muse」がApple WatchとWear OSに対応 手首から音声で呼び出し（ITmedia Mobile）",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUVTNJdTlDc0puMV9McmNhQVA0NG5rNDJmRHlVNldGTVlSZ3pRZ1RtZmtoWnRsNVVodzJpRVNmQVk2ZVAxWnJicDFSaEFSQ3VibW42cEw3Q1NoVHVJU1RJVi1tRlhvVEJ6bE15a0pRLVZqM0drc0gzMGdZeG8wZG8?oc=5",
-   "source": "Yahoo!ニュース",
-   "summary": "MetaのAIエージェント「Muse」がApple WatchとWear OSに対応 手首から音声で呼び出し（ITmedia Mobile） Yahoo!ニュース",
-   "categories": [
-    "genai"
-   ],
-   "type": "news",
-   "published": "2026-11-10T10:53+09:00",
-   "via": "Googleニュース「AIエージェント」"
-  },
-  {
-   "id": "c28b9f8f2a8dccfc",
-   "title": "『生成AIの活用を止めずに、情報漏洩による信用失墜をどう防ぐか？』というテーマのウェビナーを開催",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1vM3E5NDlBQS1ranF2cGdYZGtCc29OMEZ1eDU5QVhVNXZfQjlPT2QwVFl3VkhKb0hBdWNRR1J1em05VVJycmNHQUYxN1MtNmdJSGRrNjk2VnZYRFR6M2NoSEdBRlAzdE5GbmZv?oc=5",
-   "source": "時事ドットコム",
-   "summary": "『生成AIの活用を止めずに、情報漏洩による信用失墜をどう防ぐか？』というテーマのウェビナーを開催 時事ドットコム",
-   "categories": [
-    "biz",
-    "genai"
-   ],
-   "type": "release",
-   "published": "2026-11-10T10:46+09:00",
-   "via": "Googleニュース「生成AI」",
-   "company": ""
-  },
-  {
-   "id": "922668f0a5f9621a",
-   "title": "「何をAIに任せ、人は何を担うのか」株式会社アスレバ、識学・PKSHA Infinityなど6社が登壇するAIカンファレンスを開催",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0zSEZkcnZQMk8tNV9pY1JzUEM5WmkyQU5EUHZqZUVTMU83WVZXM21MWGF1d2NkRXBKSWVyc1hHQ1ljNTdRR0lKVm1maWNiZGMxVGE1THlWR2U1Tjc0TGRWUmFYeVR6MkV4eTVj?oc=5",
-   "source": "時事ドットコム",
-   "summary": "「何をAIに任せ、人は何を担うのか」株式会社アスレバ、識学・PKSHA Infinityなど6社が登壇するAIカンファレンスを開催 時事ドットコム",
-   "categories": [
-    "biz"
-   ],
-   "type": "news",
-   "published": "2026-11-10T10:46+09:00",
-   "via": "Googleニュース「AI 導入・活用」"
-  },
-  {
-   "id": "45851b90ab7c1776",
-   "title": "Anthropicが新AI「Claude Fable 5.2」をリリース。ぶっちぎりの高性能、実用例はもはや異次元",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1nWFF6VVcyc2dGN1lRYkdyTDE3NG92SFh5UlJqZW01aHU4anB3WTRqWnZaUlJnVEQ2LWY2X01wSUZ6eVJUdEt6SWdxc0FaZy11eHpZRUlSNU9UVy1TamNqQlVHSFN6TnZwTTBpVWxB?oc=5",
-   "source": "Gizmodo",
-   "summary": "Anthropicが新AI「Claude Fable 5.2」をリリース。ぶっちぎりの高性能、実用例はもはや異次元 Gizmodo",
-   "categories": [
-    "genai"
-   ],
-   "type": "news",
-   "published": "2026-11-10T10:45+09:00",
-   "via": "Googleニュース「Claude・Gemini」"
-  },
-  {
-   "id": "465cdb484cb8a78b",
-   "title": "エヌビディア「AI Day Seoul」開幕、半導体・ロボットの活用事例を披露 取締役会は独立調査",
-   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA4c1JhMUVNaHVQMnltcm5SVjNlR2xDcU9uSl92cTQzTlpJUHNwS3NCWDZkY0ZrRUE3bVVVY2tCWEVpRlo4ZTJLQ0J5QkhiWjIxSUJjNEZBUE9FNjIwa2VPSmlaSdIBaEFVX3lxTE5pSXYyUUFXQXpCLV8wMlRUekdXa3JtSVNmbFdHNERwMTd5WkNOamV6OUVaSENnZUE0RVl0dFFHWlR1bTVocEdjRzVPOFk5RmVuVDZGV2ZBMkZKQkZCNFVfVzVHUFJLX0ZP?oc=5",
-   "source": "財経新聞",
-   "summary": "エヌビディア「AI Day Seoul」開幕、半導体・ロボットの活用事例を披露 取締役会は独立調査 財経新聞",
-   "categories": [
-    "biz",
-    "tech"
-   ],
-   "type": "news",
-   "published": "2026-11-10T10:44+09:00",
-   "via": "Googleニュース「AI 導入・活用」"
   }
  ]
 }
